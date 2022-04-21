@@ -1,0 +1,21 @@
+Package: LLR2
+Type: Package
+Title: Bayesian Lead-Lag R2
+Version: 0.1.0
+Author: Sara Venkatraman
+Maintainer: Sara Venkatraman <skv24@cornell.edu>
+Description: This package implements the Bayesian lead-lag R2 clustering algorithm for temporal gene expression trajectories, introduced in "An empirical Bayes approach to estimating dynamic models of co-regulated gene expression" (2021).
+Encoding: UTF-8
+LazyData: true
+Imports:
+    parallel,
+    ggplot2,
+    plotly,
+    igraph,
+    RColorBrewer,
+    scales,
+    ggtext,
+    directlabels,
+    reshape2,
+    gridExtra,
+RoxygenNote: 7.1.1
